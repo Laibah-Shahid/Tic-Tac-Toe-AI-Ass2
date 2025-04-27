@@ -15,6 +15,25 @@ The assignment's goal is to understand decision trees, AI strategies, and optimi
 
 ✅ Demo Video — Walkthrough of AI in action.
 
+##🌟 Performance Comparison: Minimax vs Alpha-Beta Pruning
+
+**Feature**            | **Standard Minimax**                         |  **Alpha-Beta Pruning Minimax**
+___________________________________________________________________________________________________________________________________________________
+Efficiency             | Explores every possible move.                | Skips unnecessary branches (cuts off unneeded moves).
+___________________________________________________________________________________________________________________________________________________
+Speed                  | Slower because it checks all nodes.          | Faster due to fewer nodes evaluated.
+___________________________________________________________________________________________________________________________________________________
+Time Complexity        | O(b^d) (b = branching factor, d = depth)     | Best case: O(b^(d/2))  (almost half the nodes explored!)
+___________________________________________________________________________________________________________________________________________________
+Memory Usage           | Higher (stores many nodes).                  | Lower (prunes irrelevant parts of the tree).
+___________________________________________________________________________________________________________________________________________________
+Optimality             | Always finds the best move.                  | Always finds the best move. (No compromise.)
+___________________________________________________________________________________________________________________________________________________
+Real-World Performance | Noticeable delay for deep trees.             | More responsive and quicker decisions.
+___________________________________________________________________________________________________________________________________________________
+Use Case               | Small games, simple AI.                      | Complex games, deeper AI logic (like Chess, Tic-Tac-Toe with smarter AI).
+___________________________________________________________________________________________________________________________________________________
+
 ## ⚙️ How to Run
 Clone this repository.
 
