@@ -15,7 +15,7 @@ The assignment's goal is to understand decision trees, AI strategies, and optimi
 
 ✅ Demo Video — Walkthrough of AI in action.
 
-##🌟 Performance Comparison: Minimax vs Alpha-Beta Pruning
+## 🌟 Performance Comparison: Minimax vs Alpha-Beta Pruning
 
 **Feature**            | **Standard Minimax**                         |  **Alpha-Beta Pruning Minimax**
 ___________________________________________________________________________________________________________________________________________________
